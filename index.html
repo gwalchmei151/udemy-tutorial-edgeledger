@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Welcome to EdgeLedger</title>
   </head>
   <body>
     <header class="hero">
-      <div id="navbar" class="navbar">
+      <div id="navbar" class="navbar top">
         <h1 class="logo">
           <span class="text-primary"><i class="fas fa-book-open"></i>Edge</span
           >Ledger
@@ -113,20 +115,68 @@
         </header>
         <div class="row">
           <div class="column">
-            <img src="images/cases/cases1.jpg" alt="" />
-            <img src="images/cases/cases2.jpg" alt="" />
+            <a
+              href="images/cases/cases1.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            >
+              <img src="images/cases/cases1.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases2.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            >
+              <img src="images/cases/cases2.jpg" alt="" />
+            </a>
           </div>
           <div class="column">
-            <img src="images/cases/cases3.jpg" alt="" />
-            <img src="images/cases/cases4.jpg" alt="" />
+            <a
+              href="images/cases/cases3.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            >
+              <img src="images/cases/cases3.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases4.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            >
+              <img src="images/cases/cases4.jpg" alt="" />
+            </a>
           </div>
           <div class="column">
-            <img src="images/cases/cases5.jpg" alt="" />
-            <img src="images/cases/cases6.jpg" alt="" />
+            <a
+              href="images/cases/cases5.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            >
+              <img src="images/cases/cases5.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases6.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            >
+              <img src="images/cases/cases6.jpg" alt="" />
+            </a>
           </div>
           <div class="column">
-            <img src="images/cases/cases7.jpg" alt="" />
-            <img src="images/cases/cases8.jpg" alt="" />
+            <a
+              href="images/cases/cases7.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            >
+              <img src="images/cases/cases7.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases8.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            >
+              <img src="images/cases/cases8.jpg" alt="" />
+            </a>
           </div>
         </div>
       </section>
@@ -148,7 +198,7 @@
                 obcaecati modi, debitis incidunt nulla delectus fuga vitae
                 reiciendis tenetur est eum odit suscipit.
               </p>
-              <a href="#" class="btn btn-outline">
+              <a href="blog.html" class="btn btn-outline">
                 <i class="fas fa-chevron"></i>
                 Read Our Blog
               </a>
@@ -241,4 +291,11 @@
       <p>Copyright &copy; 2020 - EdgeLedger</p>
     </footer>
   </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/lightbox.min.js"></script>
+  <script src="js/script.js"></script>
 </html>
